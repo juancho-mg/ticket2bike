@@ -1,5 +1,5 @@
 header {
-  background-image: url("./tire-tracks-set-a2c8dd.jpg");
+  background-image: url("../../../public/img/navbarbg.jpg");
   background-size: cover;
   background-position: center center;
   box-shadow: 0 10px 10px rgba(128, 128, 128, 0.577);
@@ -24,3 +24,4 @@ a {
 .nav-item {
   font-weight: 500;
 }
+

@@ -20,7 +20,7 @@ function NavBar() {
               className="me-auto my-2 my-lg-0"
               style={{ maxHeight: '100px' }}
             >
-              
+
               {/* <Nav.Link as={Link} to={"/on-sale"}>Ofertas</Nav.Link> */}
               <NavDropdown title="Categorías" id="navbarScrollingDropdown">
                 <NavDropdown.Item as={Link} to={"/category/1"}>Mountain Bike</NavDropdown.Item>
@@ -41,7 +41,7 @@ function NavBar() {
               <Button variant="outline-success">Dale!</Button>
             </Form>
           </Navbar.Collapse>
-          <div id='cartButton'><CartWidget CartCount={4}/></div>
+          <div id='cartButton'><CartWidget CartCount={4} /></div>
         </Container>
       </Navbar>
     </header>

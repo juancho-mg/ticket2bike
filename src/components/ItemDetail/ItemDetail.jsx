@@ -2,6 +2,12 @@ import ItemCount from '../ItemCount/ItemCount';
 import './ItemDetail.css';
 
 const ItemDetail = ({item}) => {
+
+  const onAdd = (contador) => { //Agregar al carrito 
+    console.log(contador)
+    console.log(item)
+}
+
   return (
     <div className='row g-0 justify-content-center'>
       <div className='col-md-4'>
@@ -16,7 +22,7 @@ const ItemDetail = ({item}) => {
           <p className='card-text'>Stock: {item.stock}</p>
           <p className='card-text'>Descripcion:</p>
           <p className='card-text'>{item.description}</p>
-          <ItemCount ValInicial={1} min={1} max={item.stock}/>
+          <ItemCount ValInicial={1} min={1} max={item.stock} onAdd={onAdd} />
         </div>
       </div>
     </div>
