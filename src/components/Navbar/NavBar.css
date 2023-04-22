@@ -1,0 +1,26 @@
+header {
+  background-image: url("../../../public/img/navbarbg.jpg");
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 0 10px 10px rgba(128, 128, 128, 0.577);
+}
+
+nav {
+  background-color: rgb(255, 255, 255, 0.7);
+}
+
+#cartButton {
+  margin: 0 10px 0 50px;
+}
+
+a {
+  text-shadow: 2px 2px 1px white;
+}
+
+.navbar-brand {
+  font-weight: 600;
+}
+
+.nav-item {
+  font-weight: 500;
+}

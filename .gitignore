@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+#Carpetas que no hacen a la app, solo al diseño
+/src/components/Landing
